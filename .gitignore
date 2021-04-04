@@ -104,7 +104,6 @@ celerybeat.pid
 # Environments
 .env
 .venv
-coin_price_env
 env/
 venv/
 ENV/
