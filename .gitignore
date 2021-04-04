@@ -104,6 +104,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+coin_price_env
 env/
 venv/
 ENV/
@@ -127,3 +128,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# VSCode
+.vscode
