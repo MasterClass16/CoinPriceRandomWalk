@@ -48,7 +48,7 @@ async def index(request, path=""):
         random_data = bounded_random_walk(20, lower_bound=0.6, upper_bound =1.4, start=1, end=1, std=0.3).tolist()
         current = random_data.pop(0)
         r.lpush('prices', *random_data)
-    return sanicjson(current)
+    return sanicjson({"price": float(current)})
 
 
 
